@@ -1,0 +1,157 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Client	gen-py/pic/FileStorageServiceThrift.py	/^class Client(Iface):$/;"	c
+FileInfo	gen-py/pic/ttypes.py	/^class FileInfo:$/;"	c
+FileStorageServiceThrift	gen-py/pic/FileStorageServiceThrift-remote	/^import FileStorageServiceThrift$/;"	i
+Iface	gen-py/pic/FileStorageServiceThrift.py	/^class Iface:$/;"	c
+Processor	gen-py/pic/FileStorageServiceThrift.py	/^class Processor(Iface, TProcessor):$/;"	c
+TApplicationException	gen-py/pic/FileStorageServiceThrift.py	/^from thrift.Thrift import TType, TMessageType, TException, TApplicationException$/;"	i
+TApplicationException	gen-py/pic/constants.py	/^from thrift.Thrift import TType, TMessageType, TException, TApplicationException$/;"	i
+TApplicationException	gen-py/pic/ttypes.py	/^from thrift.Thrift import TType, TMessageType, TException, TApplicationException$/;"	i
+TBinaryProtocol	gen-py/pic/FileStorageServiceThrift-remote	/^from thrift.protocol import TBinaryProtocol$/;"	i
+TBinaryProtocol	gen-py/pic/FileStorageServiceThrift.py	/^from thrift.protocol import TBinaryProtocol, TProtocol$/;"	i
+TBinaryProtocol	gen-py/pic/ttypes.py	/^from thrift.protocol import TBinaryProtocol, TProtocol$/;"	i
+TBinaryProtocol	upload.py	/^from thrift.protocol import TBinaryProtocol$/;"	i
+TException	gen-py/pic/FileStorageServiceThrift.py	/^from thrift.Thrift import TType, TMessageType, TException, TApplicationException$/;"	i
+TException	gen-py/pic/constants.py	/^from thrift.Thrift import TType, TMessageType, TException, TApplicationException$/;"	i
+TException	gen-py/pic/ttypes.py	/^from thrift.Thrift import TType, TMessageType, TException, TApplicationException$/;"	i
+THttpClient	gen-py/pic/FileStorageServiceThrift-remote	/^from thrift.transport import THttpClient$/;"	i
+TMessageType	gen-py/pic/FileStorageServiceThrift.py	/^from thrift.Thrift import TType, TMessageType, TException, TApplicationException$/;"	i
+TMessageType	gen-py/pic/constants.py	/^from thrift.Thrift import TType, TMessageType, TException, TApplicationException$/;"	i
+TMessageType	gen-py/pic/ttypes.py	/^from thrift.Thrift import TType, TMessageType, TException, TApplicationException$/;"	i
+TProcessor	gen-py/pic/FileStorageServiceThrift.py	/^from thrift.Thrift import TProcessor$/;"	i
+TProtocol	gen-py/pic/FileStorageServiceThrift.py	/^from thrift.protocol import TBinaryProtocol, TProtocol$/;"	i
+TProtocol	gen-py/pic/ttypes.py	/^from thrift.protocol import TBinaryProtocol, TProtocol$/;"	i
+TSocket	gen-py/pic/FileStorageServiceThrift-remote	/^from thrift.transport import TSocket$/;"	i
+TSocket	upload.py	/^from thrift.transport import TSocket$/;"	i
+TTransport	gen-py/pic/FileStorageServiceThrift-remote	/^from thrift.transport import TTransport$/;"	i
+TTransport	gen-py/pic/FileStorageServiceThrift.py	/^from thrift.transport import TTransport$/;"	i
+TTransport	gen-py/pic/ttypes.py	/^from thrift.transport import TTransport$/;"	i
+TTransport	upload.py	/^from thrift.transport import TTransport$/;"	i
+TType	gen-py/pic/FileStorageServiceThrift.py	/^from thrift.Thrift import TType, TMessageType, TException, TApplicationException$/;"	i
+TType	gen-py/pic/constants.py	/^from thrift.Thrift import TType, TMessageType, TException, TApplicationException$/;"	i
+TType	gen-py/pic/ttypes.py	/^from thrift.Thrift import TType, TMessageType, TException, TApplicationException$/;"	i
+Thrift	upload.py	/^from thrift import Thrift$/;"	i
+__all__	gen-py/pic/__init__.py	/^__all__ = ['ttypes', 'constants', 'FileStorageServiceThrift']$/;"	v
+__eq__	gen-py/pic/FileStorageServiceThrift.py	/^  def __eq__(self, other):$/;"	m	class:createFile_args	file:
+__eq__	gen-py/pic/FileStorageServiceThrift.py	/^  def __eq__(self, other):$/;"	m	class:createFile_result	file:
+__eq__	gen-py/pic/FileStorageServiceThrift.py	/^  def __eq__(self, other):$/;"	m	class:findFile_args	file:
+__eq__	gen-py/pic/FileStorageServiceThrift.py	/^  def __eq__(self, other):$/;"	m	class:findFile_result	file:
+__eq__	gen-py/pic/FileStorageServiceThrift.py	/^  def __eq__(self, other):$/;"	m	class:removeFile_args	file:
+__eq__	gen-py/pic/FileStorageServiceThrift.py	/^  def __eq__(self, other):$/;"	m	class:removeFile_result	file:
+__eq__	gen-py/pic/ttypes.py	/^  def __eq__(self, other):$/;"	m	class:FileInfo	file:
+__init__	gen-py/pic/FileStorageServiceThrift.py	/^  def __init__(self, fileList=None,):$/;"	m	class:createFile_args
+__init__	gen-py/pic/FileStorageServiceThrift.py	/^  def __init__(self, fileList=None,):$/;"	m	class:findFile_args
+__init__	gen-py/pic/FileStorageServiceThrift.py	/^  def __init__(self, fileList=None,):$/;"	m	class:removeFile_args
+__init__	gen-py/pic/FileStorageServiceThrift.py	/^  def __init__(self, handler):$/;"	m	class:Processor
+__init__	gen-py/pic/FileStorageServiceThrift.py	/^  def __init__(self, iprot, oprot=None):$/;"	m	class:Client
+__init__	gen-py/pic/FileStorageServiceThrift.py	/^  def __init__(self, success=None,):$/;"	m	class:createFile_result
+__init__	gen-py/pic/FileStorageServiceThrift.py	/^  def __init__(self, success=None,):$/;"	m	class:findFile_result
+__init__	gen-py/pic/FileStorageServiceThrift.py	/^  def __init__(self, success=None,):$/;"	m	class:removeFile_result
+__init__	gen-py/pic/ttypes.py	/^  def __init__(self, fileUrl=None, fileName=None, fileContext=None, gmFormat=None, operateResult=None, businTyp=None, isReturnUrl=None,):$/;"	m	class:FileInfo
+__ne__	gen-py/pic/FileStorageServiceThrift.py	/^  def __ne__(self, other):$/;"	m	class:createFile_args	file:
+__ne__	gen-py/pic/FileStorageServiceThrift.py	/^  def __ne__(self, other):$/;"	m	class:createFile_result	file:
+__ne__	gen-py/pic/FileStorageServiceThrift.py	/^  def __ne__(self, other):$/;"	m	class:findFile_args	file:
+__ne__	gen-py/pic/FileStorageServiceThrift.py	/^  def __ne__(self, other):$/;"	m	class:findFile_result	file:
+__ne__	gen-py/pic/FileStorageServiceThrift.py	/^  def __ne__(self, other):$/;"	m	class:removeFile_args	file:
+__ne__	gen-py/pic/FileStorageServiceThrift.py	/^  def __ne__(self, other):$/;"	m	class:removeFile_result	file:
+__ne__	gen-py/pic/ttypes.py	/^  def __ne__(self, other):$/;"	m	class:FileInfo	file:
+__repr__	gen-py/pic/FileStorageServiceThrift.py	/^  def __repr__(self):$/;"	m	class:createFile_args	file:
+__repr__	gen-py/pic/FileStorageServiceThrift.py	/^  def __repr__(self):$/;"	m	class:createFile_result	file:
+__repr__	gen-py/pic/FileStorageServiceThrift.py	/^  def __repr__(self):$/;"	m	class:findFile_args	file:
+__repr__	gen-py/pic/FileStorageServiceThrift.py	/^  def __repr__(self):$/;"	m	class:findFile_result	file:
+__repr__	gen-py/pic/FileStorageServiceThrift.py	/^  def __repr__(self):$/;"	m	class:removeFile_args	file:
+__repr__	gen-py/pic/FileStorageServiceThrift.py	/^  def __repr__(self):$/;"	m	class:removeFile_result	file:
+__repr__	gen-py/pic/ttypes.py	/^  def __repr__(self):$/;"	m	class:FileInfo	file:
+active_meta	upload.py	/^    active_meta = client.add_dir(“\/asdfasd”)$/;"	v
+argi	gen-py/pic/FileStorageServiceThrift-remote	/^argi = 1$/;"	v
+args	gen-py/pic/FileStorageServiceThrift-remote	/^args = sys.argv[argi+1:]$/;"	v
+client	gen-py/pic/FileStorageServiceThrift-remote	/^client = FileStorageServiceThrift.Client(protocol)$/;"	v
+client	upload.py	/^    client = Client(protocol)$/;"	v
+cmd	gen-py/pic/FileStorageServiceThrift-remote	/^cmd = sys.argv[argi]$/;"	v
+createFile	gen-py/pic/FileStorageServiceThrift.py	/^  def createFile(self, fileList):$/;"	m	class:Client
+createFile	gen-py/pic/FileStorageServiceThrift.py	/^  def createFile(self, fileList):$/;"	m	class:Iface
+createFile_args	gen-py/pic/FileStorageServiceThrift.py	/^class createFile_args:$/;"	c
+createFile_result	gen-py/pic/FileStorageServiceThrift.py	/^class createFile_result:$/;"	c
+fastbinary	gen-py/pic/FileStorageServiceThrift.py	/^  fastbinary = None$/;"	v
+fastbinary	gen-py/pic/FileStorageServiceThrift.py	/^  from thrift.protocol import fastbinary$/;"	i
+fastbinary	gen-py/pic/ttypes.py	/^  fastbinary = None$/;"	v
+fastbinary	gen-py/pic/ttypes.py	/^  from thrift.protocol import fastbinary$/;"	i
+findFile	gen-py/pic/FileStorageServiceThrift.py	/^  def findFile(self, fileList):$/;"	m	class:Client
+findFile	gen-py/pic/FileStorageServiceThrift.py	/^  def findFile(self, fileList):$/;"	m	class:Iface
+findFile_args	gen-py/pic/FileStorageServiceThrift.py	/^class findFile_args:$/;"	c
+findFile_result	gen-py/pic/FileStorageServiceThrift.py	/^class findFile_result:$/;"	c
+framed	gen-py/pic/FileStorageServiceThrift-remote	/^  framed = True$/;"	v
+framed	gen-py/pic/FileStorageServiceThrift-remote	/^framed = False$/;"	v
+host	gen-py/pic/FileStorageServiceThrift-remote	/^  host = parts[0]$/;"	v
+host	gen-py/pic/FileStorageServiceThrift-remote	/^host = 'localhost'$/;"	v
+http	gen-py/pic/FileStorageServiceThrift-remote	/^  http = True$/;"	v
+http	gen-py/pic/FileStorageServiceThrift-remote	/^http = False$/;"	v
+parts	gen-py/pic/FileStorageServiceThrift-remote	/^  parts = sys.argv[argi+1].split(':')$/;"	v
+parts	gen-py/pic/FileStorageServiceThrift-remote	/^  parts = url[1].split(':')$/;"	v
+port	gen-py/pic/FileStorageServiceThrift-remote	/^    port = 80$/;"	v
+port	gen-py/pic/FileStorageServiceThrift-remote	/^    port = int(parts[1])$/;"	v
+port	gen-py/pic/FileStorageServiceThrift-remote	/^port = 9090$/;"	v
+pp	gen-py/pic/FileStorageServiceThrift-remote	/^pp = pprint.PrettyPrinter(indent = 2)$/;"	v
+pprint	gen-py/pic/FileStorageServiceThrift-remote	/^import pprint$/;"	i
+process	gen-py/pic/FileStorageServiceThrift.py	/^  def process(self, iprot, oprot):$/;"	m	class:Processor
+process_createFile	gen-py/pic/FileStorageServiceThrift.py	/^  def process_createFile(self, seqid, iprot, oprot):$/;"	m	class:Processor
+process_findFile	gen-py/pic/FileStorageServiceThrift.py	/^  def process_findFile(self, seqid, iprot, oprot):$/;"	m	class:Processor
+process_removeFile	gen-py/pic/FileStorageServiceThrift.py	/^  def process_removeFile(self, seqid, iprot, oprot):$/;"	m	class:Processor
+protocol	gen-py/pic/FileStorageServiceThrift-remote	/^protocol = TBinaryProtocol.TBinaryProtocol(transport)$/;"	v
+protocol	upload.py	/^    protocol = TBinaryProtocol.TBinaryProtocol(transport)$/;"	v
+read	gen-py/pic/FileStorageServiceThrift.py	/^  def read(self, iprot):$/;"	m	class:createFile_args
+read	gen-py/pic/FileStorageServiceThrift.py	/^  def read(self, iprot):$/;"	m	class:createFile_result
+read	gen-py/pic/FileStorageServiceThrift.py	/^  def read(self, iprot):$/;"	m	class:findFile_args
+read	gen-py/pic/FileStorageServiceThrift.py	/^  def read(self, iprot):$/;"	m	class:findFile_result
+read	gen-py/pic/FileStorageServiceThrift.py	/^  def read(self, iprot):$/;"	m	class:removeFile_args
+read	gen-py/pic/FileStorageServiceThrift.py	/^  def read(self, iprot):$/;"	m	class:removeFile_result
+read	gen-py/pic/ttypes.py	/^  def read(self, iprot):$/;"	m	class:FileInfo
+recv_createFile	gen-py/pic/FileStorageServiceThrift.py	/^  def recv_createFile(self, ):$/;"	m	class:Client
+recv_findFile	gen-py/pic/FileStorageServiceThrift.py	/^  def recv_findFile(self, ):$/;"	m	class:Client
+recv_removeFile	gen-py/pic/FileStorageServiceThrift.py	/^  def recv_removeFile(self, ):$/;"	m	class:Client
+removeFile	gen-py/pic/FileStorageServiceThrift.py	/^  def removeFile(self, fileList):$/;"	m	class:Client
+removeFile	gen-py/pic/FileStorageServiceThrift.py	/^  def removeFile(self, fileList):$/;"	m	class:Iface
+removeFile_args	gen-py/pic/FileStorageServiceThrift.py	/^class removeFile_args:$/;"	c
+removeFile_result	gen-py/pic/FileStorageServiceThrift.py	/^class removeFile_result:$/;"	c
+send_createFile	gen-py/pic/FileStorageServiceThrift.py	/^  def send_createFile(self, fileList):$/;"	m	class:Client
+send_findFile	gen-py/pic/FileStorageServiceThrift.py	/^  def send_findFile(self, fileList):$/;"	m	class:Client
+send_removeFile	gen-py/pic/FileStorageServiceThrift.py	/^  def send_removeFile(self, fileList):$/;"	m	class:Client
+socket	gen-py/pic/FileStorageServiceThrift-remote	/^  socket = TSocket.TSocket(host, port)$/;"	v
+sys	gen-py/pic/FileStorageServiceThrift-remote	/^import sys$/;"	i
+sys	upload.py	/^import sys$/;"	i
+thrift	upload.py	/^from pic.constants import *         # 该文件是用来引入thrift的数据类型$/;"	i
+thrift_spec	gen-py/pic/FileStorageServiceThrift.py	/^  thrift_spec = ($/;"	v	class:createFile_args
+thrift_spec	gen-py/pic/FileStorageServiceThrift.py	/^  thrift_spec = ($/;"	v	class:createFile_result
+thrift_spec	gen-py/pic/FileStorageServiceThrift.py	/^  thrift_spec = ($/;"	v	class:findFile_args
+thrift_spec	gen-py/pic/FileStorageServiceThrift.py	/^  thrift_spec = ($/;"	v	class:findFile_result
+thrift_spec	gen-py/pic/FileStorageServiceThrift.py	/^  thrift_spec = ($/;"	v	class:removeFile_args
+thrift_spec	gen-py/pic/FileStorageServiceThrift.py	/^  thrift_spec = ($/;"	v	class:removeFile_result
+thrift_spec	gen-py/pic/ttypes.py	/^  thrift_spec = ($/;"	v	class:FileInfo
+transport	gen-py/pic/FileStorageServiceThrift-remote	/^    transport = TTransport.TBufferedTransport(socket)$/;"	v
+transport	gen-py/pic/FileStorageServiceThrift-remote	/^    transport = TTransport.TFramedTransport(socket)$/;"	v
+transport	gen-py/pic/FileStorageServiceThrift-remote	/^  transport = THttpClient.THttpClient(host, port, uri)$/;"	v
+transport	upload.py	/^    transport = TSocket.TSocket('192.168.50.228', 8333)$/;"	v
+transport	upload.py	/^    transport = TTransport.TBufferedTransport(transport)$/;"	v
+uri	gen-py/pic/FileStorageServiceThrift-remote	/^  uri = url[2]$/;"	v
+uri	gen-py/pic/FileStorageServiceThrift-remote	/^uri = ''$/;"	v
+url	gen-py/pic/FileStorageServiceThrift-remote	/^  url = urlparse(sys.argv[argi+1])$/;"	v
+urlparse	gen-py/pic/FileStorageServiceThrift-remote	/^from urlparse import urlparse$/;"	i
+validate	gen-py/pic/FileStorageServiceThrift.py	/^  def validate(self):$/;"	m	class:createFile_args
+validate	gen-py/pic/FileStorageServiceThrift.py	/^  def validate(self):$/;"	m	class:createFile_result
+validate	gen-py/pic/FileStorageServiceThrift.py	/^  def validate(self):$/;"	m	class:findFile_args
+validate	gen-py/pic/FileStorageServiceThrift.py	/^  def validate(self):$/;"	m	class:findFile_result
+validate	gen-py/pic/FileStorageServiceThrift.py	/^  def validate(self):$/;"	m	class:removeFile_args
+validate	gen-py/pic/FileStorageServiceThrift.py	/^  def validate(self):$/;"	m	class:removeFile_result
+validate	gen-py/pic/ttypes.py	/^  def validate(self):$/;"	m	class:FileInfo
+write	gen-py/pic/FileStorageServiceThrift.py	/^  def write(self, oprot):$/;"	m	class:createFile_args
+write	gen-py/pic/FileStorageServiceThrift.py	/^  def write(self, oprot):$/;"	m	class:createFile_result
+write	gen-py/pic/FileStorageServiceThrift.py	/^  def write(self, oprot):$/;"	m	class:findFile_args
+write	gen-py/pic/FileStorageServiceThrift.py	/^  def write(self, oprot):$/;"	m	class:findFile_result
+write	gen-py/pic/FileStorageServiceThrift.py	/^  def write(self, oprot):$/;"	m	class:removeFile_args
+write	gen-py/pic/FileStorageServiceThrift.py	/^  def write(self, oprot):$/;"	m	class:removeFile_result
+write	gen-py/pic/ttypes.py	/^  def write(self, oprot):$/;"	m	class:FileInfo
